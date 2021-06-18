@@ -1,0 +1,7 @@
+{
+    "name": "Myriad",
+    "description": "Chrome new tab extension",
+    "version": "1.0",
+    "manifest_version": 3
+    
+}
