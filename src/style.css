@@ -1,0 +1,109 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#colour1 {
+    position: absolute;
+    left: 0;  
+}
+
+#colour2 {
+    position: absolute;
+    left: 25%;
+}
+  
+
+#colour3 {
+    position: absolute;
+    right: 25%;
+}
+#colour4 {
+    position: absolute;
+    right: 0;
+}
+
+.bookmarks {
+    display: flex;
+    color: aliceblue;
+    /* font-weight:bolder; */
+    font-size: 2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#bookmark1 {
+    /* background-color: #D7BDDB; */
+    left: 5%;
+    top: 85%;
+    width: 15%;
+    height: 8%;
+    z-index: 10;
+    position: absolute;
+}
+
+#bookmark2 {
+    background-color: #966EAA;
+    left: 30%;
+    top: 85%;
+    width: 15%;
+    height: 8%;
+    z-index: 10;
+    position: absolute;
+}
+
+#bookmark3 {
+    background-color: #DCD0E2;
+    left: 55%;
+    top: 85%;
+    width: 15%;
+    height: 8%;
+    z-index: 10;
+    position: absolute;
+}
+
+#bookmark4 {
+    background-color: #D1BFD9;
+    left: 80%;
+    top: 85%;
+    width: 15%;
+    height: 8%;
+    z-index: 10;
+    position: absolute;
+}
+
+#refresh {
+    /* background-color: aliceblue; */
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+

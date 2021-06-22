@@ -1,7 +1,15 @@
 {
     "name": "Myriad",
     "description": "Chrome new tab extension",
+    "manifest_version": 2,
     "version": "1.0",
-    "manifest_version": 3
+    
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+
+    "permissions": [
+        "activeTab"
+    ]
     
 }
